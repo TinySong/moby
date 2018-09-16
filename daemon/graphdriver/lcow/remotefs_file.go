@@ -198,7 +198,7 @@ func (l *lcowfile) getResponse() ([]byte, error) {
 		}
 
 		// At this point, we know something went wrong in the remotefs program, but
-		// we we don't know why.
+		// we don't know why.
 		return nil, fmt.Errorf("unknown error")
 	}
 
